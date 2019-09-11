@@ -1,0 +1,12 @@
+p { color: blue;}
+li { border: dashed orangered 1px;}
+
+.graa { background: gray;}
+
+#firstMenu { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+
+* { border: 1px solid green !important; }
+
+h2 {width: 200px; height: 45px; margin-left:10px; padding:20px;}
+
+hest {display: none;} 
