@@ -1,12 +1,37 @@
+/* Eksempler på de forskellige selectors og properties, som du skulle kunne */
+
+/* Obs, nedenstående selecter ALLE tags af den given type */
 p { color: blue;}
 li { border: dashed orangered 1px;}
 
+/* html klasser selectes med PUNKTUM+KLASSENAVN */
 .graa { background: gray;}
 
+/* html id'er selectes med HAVELÅGE+KLASSENAVN */
 #firstMenu { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
 
+/* Stjerne selecter ALT, dvs. alle elementer */
 * { border: 1px solid green !important; }
 
 h2 {width: 200px; height: 45px; margin-left:10px; padding:20px;}
 
-hest {display: none;} 
+/* Display:none kan bruges til at skjule elementer */ 
+.hiddden {display: none;} 
+
+/* Når du styler links, skal du style de forskellige tilstande af linket */ 
+a:visited,
+a:hover,
+a:active,
+a:link,
+a:focus
+{
+    color: red;
+    text-decoration: underline; 
+}
+
+/* når man holder musen over et link, ændres det til et større blåt skrift */
+a:hover {
+    background: blue;
+    text-decoration: underline; 
+    font-size: 30px;
+}
